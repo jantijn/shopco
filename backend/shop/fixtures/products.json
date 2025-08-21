@@ -1,0 +1,32 @@
+[
+  {
+    "model": "shop.product",
+    "pk": "headphones1",
+    "fields": {
+      "name": "Wireless Headphones",
+      "price": 79,
+      "img": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MQTQ3?wid=1144&hei=1144&fmt=jpeg&qlt=90",
+      "description": "High-quality wireless headphones with crystal-clear sound and long battery life."
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": "watch1",
+    "fields": {
+      "name": "Smartwatch",
+      "price": 129,
+      "img": "https://www.apple.com/v/apple-watch-se/s/images/overview/hero/hero__gk2727ue87qm_large.jpg",
+      "description": "Stay connected and track your fitness goals with this modern smartwatch."
+    }
+  },
+  {
+    "model": "shop.product",
+    "pk": "speaker1",
+    "fields": {
+      "name": "Bluetooth Speaker",
+      "price": 49,
+      "img": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/homepod-select-202210_FMT_WHH?wid=640&hei=600&fmt=jpeg&qlt=90",
+      "description": "Compact and powerful speaker with rich sound and deep bass."
+    }
+  }
+]
