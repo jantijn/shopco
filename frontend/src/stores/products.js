@@ -12,7 +12,7 @@ export const useProductStore = defineStore("products", {
       this.loading = true;
       this.error = null;
       try {
-        const res = await fetch("http://localhost:9000/api/products");
+        const res = await fetch("http://http://161.35.85.71/api/products");
         if (!res.ok) throw new Error("Failed to load products");
         const data = await res.json(); // <-- use data.items
         this.items = data.items || [];
@@ -30,7 +30,7 @@ export const useProductStore = defineStore("products", {
         const cached = this.items.find((p) => p.id === id);
         if (cached) return cached;
 
-        const res = await fetch(`http://localhost:9000/api/products/${id}`);
+        const res = await fetch(`http://161.35.85.71/api/products/${id}`);
         if (!res.ok) throw new Error("Product not found");
         return await res.json(); // backend returns a single product object
       } catch (err) {

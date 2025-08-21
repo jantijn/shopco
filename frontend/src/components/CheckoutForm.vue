@@ -30,7 +30,7 @@ async function placeOrder() {
   };
 
   try {
-    const res = await fetch("http://localhost:9000/api/orders/", {
+    const res = await fetch("http://http://161.35.85.71/api/orders/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(order),
